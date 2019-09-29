@@ -84,10 +84,10 @@ display:inline-block !important;
 display:inline; 
 max-width: 80%; //最大宽度
 
-//两个div 内容自适应 内容不填满后一个固定在底部 超过一页就随内容变
+//两个div 内容自适应 内容不填满后一个固定在底部 超过一页就变
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 
 //npm安装依赖包报错
-sudo npm install –no-bin-links
+sudo npm install –no-bin-links 
