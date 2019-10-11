@@ -15,7 +15,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 
-//盒子阴影
+//盒子阴影 
 box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
 
 background-image: linear-gradient(180deg, #FF6A55 50%, #FD4820 100%);
