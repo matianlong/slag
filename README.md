@@ -8,6 +8,6 @@ Ctrl+Shift+T，来重新打开已经被关闭的网页。
 
 mpvue小程序脚手架
 
-npm install --global vue-cli
+npm install vue-cli -g
 
 vue init mpvue/mpvue-quickstart my-project
