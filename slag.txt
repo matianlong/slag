@@ -72,6 +72,14 @@ bottom: 0;
 background-color: #0059d5;
 z-index: -1;
 
+//弹框
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0%;
+left: 0%;
+background: rgba(0, 0, 0, 0.5);
+
 background-image: linear-gradient(#2067dd 0%, #2dd7ff 100%);
 background-image: linear-gradient(180deg, #2067dd 0%, #2067dd 100%);
 
