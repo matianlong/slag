@@ -112,6 +112,9 @@ transform: rotate(135deg);
 
 //移动端下用margin-bottom撑开外部底部不起作用，应换成padding-bottom
 
+//animation 用于做动画扫描从上到下的时候
+animation：up-down-scan 3s linear infinite
+
 白 黑 蓝 橙 粉 
 
 当我心无牵挂的时候，贫穷对我来说只是晚上吃馒头和吃牛排的区别，无损我的快乐，可当我爱上一个人的时候
