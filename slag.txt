@@ -113,6 +113,7 @@ transform: rotate(135deg);
 //移动端下用margin-bottom撑开外部底部不起作用，应换成padding-bottom
 
 //animation 用于做动画扫描从上到下的时候
+transform: translateY(-120rpx)
 animation：up-down-scan 3s linear infinite
 
 白 黑 蓝 橙 粉 
