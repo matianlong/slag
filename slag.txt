@@ -116,6 +116,22 @@ transform: rotate(135deg);
 transform: translateY(-120rpx)
 animation：up-down-scan 3s linear infinite
 
+//获取事件的元素： event.target
+
+//小程序跳转
+http://z.uxpi.net/node/313
+
+//tab切换
+<view class="medical " @click="cur=0" :class="{ border:cur==0 }">关注的医生</view>
+<view class="number" @click="cur=1" :class="{ border:cur==1 }">放号提醒医生</view>
+<view class="user-doctor-container healthlist-wrap" v-show="cur==0">
+
+//箭头动画
+transform: rotate(135deg);
+transition: transform 0.2s ease;
+//点击之后
+transform: rotate(-45deg);
+
 白 黑 蓝 橙 粉 
 
 当我心无牵挂的时候，贫穷对我来说只是晚上吃馒头和吃牛排的区别，无损我的快乐，可当我爱上一个人的时候
